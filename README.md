@@ -13,8 +13,6 @@ steps:
   - name: Cypress run
   
   with:
-      # Starts web server for E2E tests - replace with your own server invocation
-      # https://docs.cypress.io/guides/continuous-integration/introduction#Boot-your-server
       start: npm run test
  record: true
       parallel: true
