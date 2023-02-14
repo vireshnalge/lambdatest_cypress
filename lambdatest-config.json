@@ -1,0 +1,41 @@
+{
+   "lambdatest_auth": {
+      "username": "vireshnalge",
+      "access_key": "eSL6Hazd6STIp8Ei8fRCqXP1uWZceDEwkLDGhfzyuwQDWvJysL"
+   },
+   "browsers": [
+      {
+         "browser": "Chrome",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      },
+      {
+         "browser": "Firefox",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      }
+   ],
+   "run_settings": {
+      
+      "build_name": "cypress_lambadatest",
+      "parallels": 1,
+      "specs": "cypress/e2e/Test Scenario 1.cy.js",
+      "ignore_files": "",
+      "network": false,
+      "headless": false,
+      "npm_dependencies": {
+         
+         "axe-core": "^4.6.3",
+         "cypress": "^12.5.1",
+         "cypress-axe": "^1.3.0"
+      }
+   },
+   "tunnel_settings": {
+      "tunnel": false,
+      "tunnel_name": null
+   }
+}
