@@ -5,9 +5,9 @@ jobs:
   cypress-run:
     runs-on: windows-latest
     
-    matrix:
+matrix:
     containers: [1, 2] # Uses 2 parallel instances
-steps:
+steps: 
   - name: Checkout
     uses: actions/checkout@v3
   - name: Cypress run
